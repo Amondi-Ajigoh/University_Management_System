@@ -1,0 +1,154 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "UniversityManagement.Api/1.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "10.1.0",
+          "UniversityManagement.Application": "1.0.0",
+          "UniversityManagement.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "UniversityManagement.Api.dll": {}
+        }
+      },
+      "Microsoft.OpenApi/3.9.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/10.1.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.1.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "10.1.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.1.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/10.1.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "3.9.0"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.1.0.2093"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/10.1.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.1.0.2093"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/10.1.0": {
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.1.0.2093"
+          }
+        }
+      },
+      "UniversityManagement.Application/1.0.0": {
+        "dependencies": {
+          "UniversityManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UniversityManagement.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UniversityManagement.Domain/1.0.0": {
+        "runtime": {
+          "UniversityManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UniversityManagement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "UniversityManagement.Application": "1.0.0",
+          "UniversityManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UniversityManagement.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UniversityManagement.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.OpenApi/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sDK6AFY1L/Xg8JvwlaDoPwzGqCftjUgHG2NhCy8gNV/1v4eXziYoH39e/pwC7oTBJInuYUUJqfkRpIMPQ/Fyw==",
+      "path": "microsoft.openapi/3.9.0",
+      "hashPath": "microsoft.openapi.3.9.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CvOffaJKStoP0hdfCIX4V/9wuwRkSOJd+PehGo/Y5ALh0WYliLwuMlyh1BbgG7uQtJNe1k5P7QIhIaFfZ/aJAw==",
+      "path": "swashbuckle.aspnetcore/10.1.0",
+      "hashPath": "swashbuckle.aspnetcore.10.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Kp35Jhkzw73UXnvgGWVgRjvfGx5h1V4fdL9JcPZMKoTyO/bnKD/1i86n8u2p+rVTDed0cDSH4PKbX4WicZ/gg==",
+      "path": "swashbuckle.aspnetcore.swagger/10.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.10.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XV2gyKmjWs5K5QaSq9rNYtO/E7vr/RcyBkMbbCVUlUtI5OY0HKj260Wee9zsJ7scJf7kPCxeseBiUMRp67ZWxA==",
+      "path": "swashbuckle.aspnetcore.swaggergen/10.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.10.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ilUsTvGA9hO1ulR7ibdWMWSg3438Iu+pDFcEYUorp+/ClHwaHFdpp/ATfBsFXv2sIRVDbQlEwd5BWBOdMdtKCA==",
+      "path": "swashbuckle.aspnetcore.swaggerui/10.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.10.1.0.nupkg.sha512"
+    },
+    "UniversityManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UniversityManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UniversityManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

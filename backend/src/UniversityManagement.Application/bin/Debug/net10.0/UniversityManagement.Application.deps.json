@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "UniversityManagement.Application/1.0.0": {
+        "dependencies": {
+          "UniversityManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UniversityManagement.Application.dll": {}
+        }
+      },
+      "UniversityManagement.Domain/1.0.0": {
+        "runtime": {
+          "UniversityManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UniversityManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UniversityManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
