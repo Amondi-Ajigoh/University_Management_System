@@ -13,3 +13,4 @@ C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\Univers
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Application\obj\Debug\net10.0\refint\UniversityManagement.Application.dll
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Application\obj\Debug\net10.0\UniversityManagement.Application.pdb
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Application\obj\Debug\net10.0\ref\UniversityManagement.Application.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Application\obj\Debug\net10.0\UniversityManagement.Application.sourcelink.json

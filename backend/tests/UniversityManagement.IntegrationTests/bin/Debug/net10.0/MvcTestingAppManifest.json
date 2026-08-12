@@ -1,0 +1,6 @@
+{
+  "UniversityManagement.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Hp\\Desktop\\Development\\University_Management_System\\backend\\src\\UniversityManagement.Api",
+  "UniversityManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Hp\\Desktop\\Development\\University_Management_System\\backend\\src\\UniversityManagement.Application",
+  "UniversityManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Hp\\Desktop\\Development\\University_Management_System\\backend\\src\\UniversityManagement.Domain",
+  "UniversityManagement.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Hp\\Desktop\\Development\\University_Management_System\\backend\\src\\UniversityManagement.Infrastructure"
+}

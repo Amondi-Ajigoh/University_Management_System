@@ -100,3 +100,11 @@ C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\Unive
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\obj\Debug\net10.0\UniversityManagement.UnitTests.pdb
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\obj\Debug\net10.0\UniversityManagement.UnitTests.genruntimeconfig.cache
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\obj\Debug\net10.0\ref\UniversityManagement.UnitTests.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\Ardalis.GuardClauses.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\FluentAssertions.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\Mapster.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\Mapster.Core.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\tests\UniversityManagement.UnitTests\obj\Debug\net10.0\UniversityManagement.UnitTests.sourcelink.json

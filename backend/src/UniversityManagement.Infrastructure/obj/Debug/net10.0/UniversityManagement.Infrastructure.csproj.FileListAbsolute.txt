@@ -15,3 +15,6 @@ C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\Univers
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Infrastructure\obj\Debug\net10.0\refint\UniversityManagement.Infrastructure.dll
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Infrastructure\obj\Debug\net10.0\UniversityManagement.Infrastructure.pdb
 C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Infrastructure\obj\Debug\net10.0\ref\UniversityManagement.Infrastructure.dll
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Infrastructure\bin\Debug\net10.0\UniversityManagement.Infrastructure.runtimeconfig.json
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Infrastructure\obj\Debug\net10.0\UniversityManagement.Infrastructure.sourcelink.json
+C:\Users\Hp\Desktop\Development\University_Management_System\backend\src\UniversityManagement.Infrastructure\obj\Debug\net10.0\UniversityManagement.Infrastructure.genruntimeconfig.cache
