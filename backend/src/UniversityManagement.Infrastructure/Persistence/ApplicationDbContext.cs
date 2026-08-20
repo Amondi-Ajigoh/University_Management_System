@@ -1,22 +1,30 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using UniversityManagement.Application.Interfaces;
 using UniversityManagement.Domain.Entities;
 
 namespace UniversityManagement.Infrastructure.Persistence;
 
-public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+public class ApplicationDbContext
+    : IdentityDbContext<IdentityUser>, IApplicationDbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+    public ApplicationDbContext(
+        DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
     }
 
     public DbSet<Student> Students => Set<Student>();
+
     public DbSet<Lecturer> Lecturers => Set<Lecturer>();
+
     public DbSet<Department> Departments => Set<Department>();
+
     public DbSet<Course> Courses => Set<Course>();
+
     public DbSet<Enrollment> Enrollments => Set<Enrollment>();
+
     public DbSet<LecturerCourse> LecturerCourses => Set<LecturerCourse>();
 
     protected override void OnModelCreating(ModelBuilder builder)

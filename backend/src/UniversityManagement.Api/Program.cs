@@ -1,4 +1,9 @@
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using UniversityManagement.Application.Interfaces;
+using UniversityManagement.Application.Students.Commands;
+using UniversityManagement.Application.Students.Services;
+using UniversityManagement.Application.Students.Validators;
 using UniversityManagement.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +14,14 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<IApplicationDbContext>(provider =>
+    provider.GetRequiredService<ApplicationDbContext>());
+
+builder.Services.AddScoped<IStudentService, StudentService>();
+
+builder.Services.AddScoped<IValidator<CreateStudentCommand>, CreateStudentCommandValidator>();
+builder.Services.AddScoped<IValidator<UpdateStudentCommand>, UpdateStudentCommandValidator>();
 
 builder.Services.AddControllers();
 
