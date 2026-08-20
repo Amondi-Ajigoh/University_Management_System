@@ -1,5 +1,8 @@
 using FluentValidation;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using UniversityManagement.Api.Middleware;
 using UniversityManagement.Application.Interfaces;
 using UniversityManagement.Application.Students.Commands;
 using UniversityManagement.Application.Students.Services;
@@ -23,12 +26,17 @@ builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IValidator<CreateStudentCommand>, CreateStudentCommandValidator>();
 builder.Services.AddScoped<IValidator<UpdateStudentCommand>, UpdateStudentCommandValidator>();
 
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseExceptionHandler();
 
 if (app.Environment.IsDevelopment())
 {
